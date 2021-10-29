@@ -1,6 +1,6 @@
 # E-commerce website build with Vue, Django &amp; Python
 
-#### Install dependecies:
+### Install dependecies:
 
 -Python <br />
 -Django <br />
@@ -12,7 +12,8 @@
 -Pillow <br />
 -Stripe <br />
 
-###Create a virtualenv. <br />
+### Create a virtualenv. <br />
+
 Then install all the dependecies listed above. <br />
 For security add to urls.py ~ <br />
 
