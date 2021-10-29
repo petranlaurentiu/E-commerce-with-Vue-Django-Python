@@ -1,19 +1,20 @@
 # E-commerce-with-Vue-Django-Python
 
-E-commerce website build with Vue, Django &amp; Python
+## E-commerce website build with Vue, Django &amp; Python
 
-Install dependecies:
-Python
-Django
-Pip
-Virtualenv
-Django-rest-framework
-Django-cors-headers
-Djoser
-Pillow
-Stripe
+### Install dependecies:
 
-Create a virtualenv. THen install all the dependecies listed above.
+-Python
+-Django
+-Pip
+-Virtualenv
+-Django-rest-framework
+-Django-cors-headers
+-Djoser
+-Pillow
+-Stripe
+
+Create a virtualenv. Then install all the dependecies listed above.
 For security add to urls.py ~
 "from django.contrib import admin
 from django.urls import path, include
@@ -62,7 +63,7 @@ $ python manage.py migrate
 Create a superuser ~
 $ python manage.py createsuperuser
 
-#_VUE SETUP_
+_VUE SETUP_
 npm install -g @vue/cli
 vue create ecommerce-project with bellow settings ~
 "Vue CLI v4.5.15
