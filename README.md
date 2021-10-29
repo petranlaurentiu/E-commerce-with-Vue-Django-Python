@@ -54,7 +54,7 @@ MIDDLEWARE = [
 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]" \*
 
-Activate the environment using bash for Windows & Linux ~
+Activate the environment using bash for Windows & Linux ~ <br />
 _$ source environment3_9/scripts/activate
 Then run migrations ~
 $ python manage.py makemigrations
@@ -66,7 +66,7 @@ _$ python manage.py createsuperuser_
 ### _VUE SETUP_
 
 npm install -g @vue/cli
-vue create ecommerce-project with bellow settings ~
+vue create ecommerce-project with bellow settings ~ <br />
 _"Vue CLI v4.5.15
 ? Please pick a preset: Manually select features
 ? Check the features needed for your project: Choose Vue version, Babel, Router, Vuex, CSS Pre-processors
