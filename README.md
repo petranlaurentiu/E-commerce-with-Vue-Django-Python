@@ -62,7 +62,7 @@ $ python manage.py migrate
 Create a superuser ~
 $ python manage.py createsuperuser
 
-_VUE SETUP_
+#_VUE SETUP_
 npm install -g @vue/cli
 vue create ecommerce-project with bellow settings ~
 "Vue CLI v4.5.15
@@ -78,5 +78,5 @@ Cd into project and instal some dependencies ~
 Axios
 Bulma / Alternative-Bootstrap
 
-_Font Awesome_
+#_Font Awesome_
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
