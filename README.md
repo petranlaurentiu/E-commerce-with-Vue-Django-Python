@@ -17,13 +17,13 @@
 Then install all the dependecies listed above. <br />
 For security add to urls.py ~ <br />
 
-\_"from django.contrib import admin
+\_"from django.contrib import admin <br />
 from django.urls import path, include
 
-urlpatterns = [
-path('admin/', admin.site.urls),
-path('api/v1/', include('djoser.urls')),
-path('api/v1/', include('djoser.urls.authtoken')),
+urlpatterns = [<br />
+path('admin/', admin.site.urls),<br />
+path('api/v1/', include('djoser.urls')),<br />
+path('api/v1/', include('djoser.urls.authtoken')),<br />
 ]"\_
 
 For settings.py add these, or replace ~ <br />
