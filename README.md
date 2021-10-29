@@ -2,42 +2,43 @@
 
 #### Install dependecies:
 
--Python
--Django
--Pip
--Virtualenv
--Django-rest-framework
--Django-cors-headers
--Djoser
--Pillow
--Stripe
+-Python <br />
+-Django <br />
+-Pip <br />
+-Virtualenv <br />
+-Django-rest-framework <br />
+-Django-cors-headers <br />
+-Djoser <br />
+-Pillow <br />
+-Stripe <br />
 
-###Create a virtualenv.
-Then install all the dependecies listed above.
-For security add to urls.py ~
-"from django.contrib import admin
+###Create a virtualenv. <br />
+Then install all the dependecies listed above. <br />
+For security add to urls.py ~ <br />
+
+\*"from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
 path('admin/', admin.site.urls),
 path('api/v1/', include('djoser.urls')),
 path('api/v1/', include('djoser.urls.authtoken')),
-]"
+]"\*
 
-For settings.py add these, or replace ~
+For settings.py add these, or replace ~ <br />
 
-- "INSTALLED_APPS = [
-  'django.contrib.admin',
-  'django.contrib.auth',
-  'django.contrib.contenttypes',
-  'django.contrib.sessions',
-  'django.contrib.messages',
-  'django.contrib.staticfiles',
-  'rest_framework',
-  'rest_framework.authtoken',
-  'corsheaders',
-  'djoser',
-  ]
+\*"INSTALLED_APPS = [
+'django.contrib.admin',
+'django.contrib.auth',
+'django.contrib.contenttypes',
+'django.contrib.sessions',
+'django.contrib.messages',
+'django.contrib.staticfiles',
+'rest_framework',
+'rest_framework.authtoken',
+'corsheaders',
+'djoser',
+]
 
 CORS_ALLOWED_ORIGINS = [
 "http://localhost:5050",
@@ -52,7 +53,7 @@ MIDDLEWARE = [
 'django.contrib.auth.middleware.AuthenticationMiddleware',
 'django.contrib.messages.middleware.MessageMiddleware',
 'django.middleware.clickjacking.XFrameOptionsMiddleware',
-]" \*
+]"\*
 
 Activate the environment using bash for Windows & Linux ~ <br />
 _$ source environment3_9/scripts/activate
